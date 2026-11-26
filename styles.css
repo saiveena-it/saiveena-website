@@ -708,6 +708,24 @@ h1 {
   background: #d3f7a3;
 }
 
+.contact-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 0 0 21px;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.contact-details a {
+  border-bottom: 1px solid rgba(193, 241, 123, 0.35);
+}
+
+.contact-details a:hover {
+  color: var(--lime);
+}
+
 .contact-aside {
   display: grid;
   gap: 17px;
