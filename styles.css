@@ -708,22 +708,35 @@ h1 {
   background: #d3f7a3;
 }
 
-.contact-details {
+.contact-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 18px;
-  margin: 0 0 21px;
-  color: var(--ink);
-  font-size: 12px;
-  font-weight: 600;
+  gap: 10px;
 }
 
-.contact-details a {
-  border-bottom: 1px solid rgba(193, 241, 123, 0.35);
+.contact-actions .button {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  white-space: nowrap;
 }
 
-.contact-details a:hover {
+.contact-actions .button span {
+  opacity: 0.68;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.button-outline {
+  border: 1px solid rgba(193, 241, 123, 0.55);
   color: var(--lime);
+  background: transparent;
+}
+
+.button-outline:hover {
+  border-color: var(--lime);
+  background: rgba(193, 241, 123, 0.08);
 }
 
 .contact-aside {
